@@ -80,15 +80,15 @@
     margin-left: 0.8rem;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
     :root {
         font-size: 40%;
     }
 }
 
-@media (min-width: 650px) {    
+@media (min-width: 1000px) {    
     #page-landing #container {
-        max-width: 650px;
+        max-width: 1000px;
         display: grid;
         grid-template-columns: 2fr 1fr 2fr;
         grid-template-rows: 350px 1fr;
