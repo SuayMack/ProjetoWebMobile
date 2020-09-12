@@ -59,5 +59,5 @@ Database.then(async (db) =>{
         AND class_schedule.time_from <= "450"
         AND class_schedule.time_to > "1400"
     `)
-    console.log(selectClassesSchedules)
+    //console.log(selectClassesSchedules)
 })
