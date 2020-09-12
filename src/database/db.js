@@ -13,12 +13,12 @@ function execute(db) {
 
         CREATE TABLE IF NOT EXISTS classes (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            subject TEXT,
+            subject INTEGER,
             cost TEXT,
             proffy_id INTEGER
         );
 
-        CREATE TABLE IF NOT EXISTS classe_schedule (
+        CREATE TABLE IF NOT EXISTS class_schedule (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             class_id TEXT,
             weekday TEXT,
@@ -30,4 +30,4 @@ function execute(db) {
     //node src/database/db.js
 } 
 
-Database.open(__dirname + '/database.sqlite').then(execute)
+module.exports = Database.open(__dirname + '/database.sqlite').then(execute)
