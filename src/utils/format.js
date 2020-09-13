@@ -29,8 +29,15 @@ function getSubject(subjectNumber) {
     return subjects[position]
 }
 
+//Função converter horas em pages.js
+function convertHoursToMinutes(time) {
+    const [hour, minutes] = time.split(":")
+    return Number((hour * 60) + minutes)
+}
+
 module.exports = {
     subjects,
     weekdays,
-    getSubject
+    getSubject,
+    convertHoursToMinutes
 }
