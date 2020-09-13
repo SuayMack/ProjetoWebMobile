@@ -20,3 +20,11 @@ Este projeto é uma plataforma de estudos onde o professor se cadastra passando 
 * Node.js
 * SQLite
 * Nunjucks
+
+## Telas do projeto:
+
+### Web
+![paginas_web](https://github.com/SuayMack/ProjetoWeb/blob/master/img-git/web.png) 
+
+### Mobile
+![paginas_mobile](https://github.com/SuayMack/ProjetoWeb/blob/master/img-git/mobile.png)
