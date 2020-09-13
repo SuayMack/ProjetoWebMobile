@@ -1,4 +1,4 @@
-# ProjetoWeb - Proffy
+# Projeto Web/Mobile - Proffy
 
 ## Next Level Week - Rocketseat
 
